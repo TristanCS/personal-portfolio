@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TristanCS</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body
+    class="dark:bg-tertiary bg-complimentary flex flex-col items-center gap-10 py-5"
+  >
+    <header class="max-w-7xl w-full fixed">
+      <section
+        class="flex justify-between p-5 bg-secondary border-tertiary border-2 rounded-xl"
+      >
+        <a href="#" class="flex">
+          <svg
+            id="header-title"
+            width="250"
+            viewBox="0 0 580 104"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M565.557 29.1818C565.011 24.5757 562.799 21 558.92 18.4545C555.042 15.9091 550.284 14.6364 544.648 14.6364C540.526 14.6364 536.92 15.303 533.83 16.6364C530.769 17.9697 528.375 19.803 526.648 22.1364C524.951 24.4697 524.102 27.1212 524.102 30.0909C524.102 32.5757 524.693 34.7121 525.875 36.5C527.087 38.2576 528.633 39.7273 530.511 40.9091C532.39 42.0606 534.36 43.0151 536.42 43.7727C538.481 44.5 540.375 45.0909 542.102 45.5454L551.557 48.0909C553.981 48.7273 556.678 49.6061 559.648 50.7273C562.648 51.8485 565.511 53.3788 568.239 55.3182C570.996 57.2273 573.269 59.6818 575.057 62.6818C576.845 65.6818 577.739 69.3636 577.739 73.7273C577.739 78.7576 576.42 83.303 573.784 87.3636C571.178 91.4242 567.36 94.6515 562.33 97.0454C557.33 99.4394 551.254 100.636 544.102 100.636C537.436 100.636 531.663 99.5606 526.784 97.4091C521.936 95.2576 518.117 92.2576 515.33 88.4091C512.572 84.5606 511.011 80.0909 510.648 75H522.284C522.587 78.5151 523.769 81.4242 525.83 83.7273C527.92 86 530.557 87.697 533.739 88.8182C536.951 89.9091 540.405 90.4545 544.102 90.4545C548.405 90.4545 552.269 89.7576 555.693 88.3636C559.117 86.9394 561.83 84.9697 563.83 82.4545C565.83 79.9091 566.83 76.9394 566.83 73.5454C566.83 70.4545 565.966 67.9394 564.239 66C562.511 64.0606 560.239 62.4848 557.42 61.2727C554.602 60.0606 551.557 59 548.284 58.0909L536.83 54.8182C529.557 52.7273 523.799 49.7424 519.557 45.8636C515.314 41.9848 513.193 36.9091 513.193 30.6364C513.193 25.4242 514.602 20.8788 517.42 17C520.269 13.0909 524.087 10.0606 528.875 7.90908C533.693 5.72726 539.072 4.63635 545.011 4.63635C551.011 4.63635 556.345 5.71211 561.011 7.86362C565.678 9.98484 569.375 12.8939 572.102 16.5909C574.86 20.2879 576.314 24.4848 576.466 29.1818H565.557Z"
+              stroke="#00ADB5"
+              stroke-width="3"
+            />
+            <path
+              d="M496.432 36.5H498.221L497.909 34.7382C497.032 29.7917 495.429 25.3578 493.082 21.4563C490.749 17.5474 487.841 14.2256 484.359 11.5026C480.885 8.75535 476.986 6.67374 472.674 5.25712C468.389 3.83964 463.821 3.13635 458.977 3.13635C450.782 3.13635 443.44 5.14214 436.998 9.18394C430.56 13.2235 425.517 18.9582 421.861 26.3337C418.192 33.7345 416.386 42.4574 416.386 52.4545C416.386 62.4517 418.192 71.1746 421.861 78.5753C425.517 85.9508 430.56 91.6856 436.998 95.7251C443.44 99.7669 450.782 101.773 458.977 101.773C463.821 101.773 468.39 101.069 472.675 99.6517C476.985 98.2357 480.882 96.1704 484.356 93.4545L484.362 93.4492C487.843 90.6964 490.751 87.3599 493.084 83.4505C495.428 79.5218 497.032 75.0899 497.909 70.1724L498.223 68.4091H496.432H485.159H483.938L483.69 69.6043C483.059 72.6451 481.962 75.3099 480.413 77.619L480.411 77.6225C478.874 79.9279 477.001 81.8714 474.787 83.4612C472.594 85.028 470.154 86.214 467.458 87.017C464.754 87.8224 461.929 88.2273 458.977 88.2273C453.608 88.2273 448.78 86.8749 444.454 84.1822C440.182 81.5047 436.738 77.5396 434.146 72.2107C431.603 66.9213 430.295 60.3556 430.295 52.4545C430.295 44.5534 431.603 37.9876 434.146 32.6982C436.738 27.3692 440.182 23.4042 444.454 20.7267C448.78 18.0341 453.609 16.6818 458.977 16.6818C461.929 16.6818 464.754 17.0867 467.458 17.8921C470.149 18.6935 472.585 19.8919 474.777 21.4858L474.786 21.4923L474.795 21.4986C477.004 23.0566 478.875 24.9827 480.411 27.2866L480.411 27.2866L480.418 27.2972C481.962 29.5704 483.058 32.2307 483.69 35.3021L483.936 36.5H485.159H496.432Z"
+              stroke="#00ADB5"
+              stroke-width="3"
+            />
+            <path
+              d="M355.92 100.5H357.42V99V57C357.42 53.1271 358.157 49.9318 359.557 47.3517C360.975 44.7384 362.883 42.7862 365.283 41.4486C367.734 40.1002 370.54 39.4091 373.739 39.4091C378.373 39.4091 381.85 40.8355 384.363 43.562L384.368 43.5674C386.886 46.2726 388.239 50.1364 388.239 55.3636V99V100.5H389.739H400.466H401.966V99V54.6363C401.966 48.5436 400.957 43.383 398.85 39.2315C396.755 35.0758 393.791 31.9306 389.954 29.8634C386.154 27.7859 381.764 26.7727 376.83 26.7727C371.36 26.7727 366.747 27.9038 363.103 30.2877C360.67 31.8587 358.652 33.7842 357.057 36.058V29.1818V27.6818H355.557H345.193H343.693V29.1818V99V100.5H345.193H355.92Z"
+              stroke="#00ADB5"
+              stroke-width="3"
+            />
+            <path
+              d="M293.614 100.636C289.189 100.636 285.174 99.803 281.568 98.1363C277.962 96.4394 275.098 94 272.977 90.8182C270.856 87.606 269.795 83.7272 269.795 79.1818C269.795 75.1818 270.583 71.9394 272.159 69.4545C273.735 66.9394 275.841 64.9697 278.477 63.5454C281.114 62.1212 284.023 61.0606 287.205 60.3636C290.417 59.6363 293.644 59.0606 296.886 58.6363C301.129 58.0909 304.568 57.6818 307.205 57.4091C309.871 57.106 311.811 56.606 313.023 55.9091C314.265 55.2121 314.886 54 314.886 52.2727V51.9091C314.886 47.4242 313.659 43.9394 311.205 41.4545C308.78 38.9697 305.098 37.7272 300.159 37.7272C295.038 37.7272 291.023 38.8485 288.114 41.0909C285.205 43.3333 283.159 45.7272 281.977 48.2727L271.795 44.6363C273.614 40.3939 276.038 37.0909 279.068 34.7272C282.129 32.3333 285.462 30.6666 289.068 29.7272C292.705 28.7576 296.28 28.2727 299.795 28.2727C302.038 28.2727 304.614 28.5454 307.523 29.0909C310.462 29.606 313.295 30.6818 316.023 32.3182C318.78 33.9545 321.068 36.4242 322.886 39.7272C324.705 43.0303 325.614 47.4545 325.614 53V99H314.886V89.5454H314.341C313.614 91.0606 312.402 92.6818 310.705 94.4091C309.008 96.1363 306.75 97.606 303.932 98.8182C301.114 100.03 297.674 100.636 293.614 100.636ZM295.25 91C299.492 91 303.068 90.1666 305.977 88.5C308.917 86.8333 311.129 84.6818 312.614 82.0454C314.129 79.4091 314.886 76.6363 314.886 73.7272V63.9091C314.432 64.4545 313.432 64.9545 311.886 65.4091C310.371 65.8333 308.614 66.2121 306.614 66.5454C304.644 66.8485 302.72 67.1212 300.841 67.3636C298.992 67.5757 297.492 67.7576 296.341 67.9091C293.553 68.2727 290.947 68.8636 288.523 69.6818C286.129 70.4697 284.189 71.6666 282.705 73.2727C281.25 74.8485 280.523 77 280.523 79.7272C280.523 83.4545 281.902 86.2727 284.659 88.1818C287.447 90.0606 290.977 91 295.25 91Z"
+              stroke="#00ADB5"
+              stroke-width="3"
+            />
+            <path
+              d="M258.432 29.1818V27.6818H256.932H243.523V12.4545V10.9545H242.023H231.295H229.795V12.4545V27.6818H220.75H219.25V29.1818V38.2727V39.7727H220.75H229.795V81.9091C229.795 86.2026 230.791 89.8884 232.887 92.8639L232.894 92.8732C234.951 95.7458 237.549 97.9051 240.677 99.3211L240.682 99.3235C243.774 100.708 246.952 101.409 250.205 101.409C252.261 101.409 254.031 101.255 255.482 100.919C256.808 100.641 257.903 100.351 258.731 100.041L259.956 99.5814L259.668 98.3051L257.486 88.6687L257.163 87.2423L255.729 87.5291L253.94 87.8868C253.293 87.988 252.419 88.0454 251.295 88.0454C249.883 88.0454 248.554 87.8298 247.298 87.4047C246.284 87.0252 245.388 86.283 244.63 85.0505C243.953 83.8738 243.523 81.9219 243.523 79V39.7727H256.932H258.432V38.2727V29.1818Z"
+              stroke="#00ADB5"
+              stroke-width="3"
+            />
+            <path
+              d="M209.556 46.2615L211.07 45.833L210.57 44.3412C208.813 39.103 205.825 34.8488 201.605 31.6274C197.319 28.3311 191.532 26.7727 184.42 26.7727C179.334 26.7727 174.727 27.6682 170.628 29.4933L170.624 29.4951C166.57 31.315 163.31 33.8468 160.897 37.1077L160.896 37.1077L160.891 37.1156C158.481 40.416 157.284 44.2141 157.284 48.4545C157.284 53.6087 158.884 57.9999 162.137 61.5183L162.142 61.5237L162.147 61.529C165.426 65.0062 170.439 67.4541 176.984 69.005L176.987 69.0059L188.624 71.7331L188.626 71.7337C192.001 72.5193 194.309 73.6719 195.733 75.0701L195.733 75.0702L195.743 75.0797C197.137 76.4245 197.83 78.0609 197.83 80.0909C197.83 82.5007 196.673 84.6626 193.997 86.6022C191.394 88.4805 187.767 89.5 182.966 89.5C178.78 89.5 175.545 88.6055 173.138 86.9488C170.789 85.3109 169.133 82.8272 168.237 79.3524L167.865 77.911L166.42 78.272L156.238 80.8175L154.839 81.1675L155.134 82.5798C156.45 88.8699 159.613 93.7404 164.638 97.0687C169.609 100.361 175.812 101.955 183.148 101.955C188.738 101.955 193.711 101.017 198.03 99.098C202.324 97.1893 205.73 94.5498 208.18 91.1538C210.674 87.7396 211.92 83.8535 211.92 79.5454C211.92 74.3251 210.27 69.9446 206.898 66.5381C203.57 63.1454 198.623 60.7309 192.231 59.1791C192.23 59.179 192.229 59.1788 192.229 59.1787L181.875 56.6357C181.874 56.6354 181.873 56.6351 181.872 56.6349C177.833 55.6248 175.047 54.4023 173.355 53.0542C171.803 51.8171 171.011 50.1586 171.011 47.9091C171.011 45.4781 172.111 43.4407 174.589 41.7357L174.592 41.7337C177.136 39.9743 180.381 39.0454 184.42 39.0454C187.396 39.0454 189.705 39.5241 191.431 40.3871C193.255 41.299 194.636 42.4304 195.627 43.7598L195.637 43.7731L195.647 43.7862C196.747 45.1962 197.561 46.6261 198.108 48.075L198.594 49.3639L199.92 48.9887L209.556 46.2615Z"
+              stroke="#00ADB5"
+              stroke-width="3"
+            />
+            <path
+              d="M127.818 99V100.5H129.318H140.045H141.545V99V29.1818V27.6818H140.045H129.318H127.818V29.1818V99ZM128.325 16.4916L128.331 16.4968L128.336 16.502C130.131 18.1894 132.302 19.0455 134.773 19.0455C137.241 19.0455 139.401 18.1903 141.169 16.4968C142.969 14.8027 143.909 12.7023 143.909 10.2727C143.909 7.84311 142.969 5.74275 141.169 4.04859C139.401 2.35512 137.241 1.5 134.773 1.5C132.302 1.5 130.131 2.35609 128.336 4.04342L128.331 4.0486L128.325 4.05384C126.555 5.75182 125.636 7.85103 125.636 10.2727C125.636 12.6944 126.555 14.7936 128.325 16.4916Z"
+              stroke="#00ADB5"
+              stroke-width="3"
+            />
+            <path
+              d="M81.6932 99V29.1818H92.0568V39.7272H92.7841C94.0568 36.2727 96.3598 33.4697 99.6932 31.3182C103.027 29.1666 106.784 28.0909 110.966 28.0909C111.754 28.0909 112.739 28.106 113.92 28.1363C115.102 28.1666 115.996 28.2121 116.602 28.2727V39.1818C116.239 39.0909 115.405 38.9545 114.102 38.7727C112.83 38.5606 111.481 38.4545 110.057 38.4545C106.663 38.4545 103.633 39.1666 100.966 40.5909C98.3295 41.9848 96.2386 43.9242 94.6932 46.4091C93.178 48.8636 92.4204 51.6666 92.4204 54.8182V99H81.6932Z"
+              stroke="#00ADB5"
+              stroke-width="3"
+            />
+            <path
+              d="M1.68182 15.9091V17.4091H3.18182H30.9546V99V100.5H32.4546H43.7273H45.2273V99V17.4091H73H74.5V15.9091V5.90906V4.40906H73H3.18182H1.68182V5.90906V15.9091Z"
+              stroke="#00ADB5"
+              stroke-width="3"
+            />
+          </svg>
+        </a>
+        <nav id="navbar">
+          <ul class="flex justify-evenly items-center md:gap-10 lg:gap-10">
+            <li>
+              <a
+                href="#hero"
+                class="text-complimentary hover:text-primary hidden lg:block"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                class="text-complimentary hover:text-primary hidden lg:block none"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="text-complimentary hover:text-primary bg-primary hover:bg-complimentary px-4 py-2 rounded-3xl shadow-sm transition-all duration-500 hover:transition-all hover:duration-300 hidden lg:block"
+                >Contact Me</a
+              >
+            </li>
+            <li>
+              <a href="#contact"
+                ><img
+                  src="img/icons/mobile-contact.svg"
+                  class="bg-primary p-2 rounded-full lg:hidden"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main class="flex flex-col gap-10 max-w-7xl">
+      <section id="hero" class="flex flex-col gap-10 pt-40">
+        <h2
+          id="hero-title"
+          class="text-center text-6xl text-secondary dark:text-complimentary"
+        >
+          <span class="text-primary">HubSpot</span> CMS Developer and CRM
+          Integrations Expert
+        </h2>
+        <div
+          class="bg-secondary rounded-xl w-full flex flex-col gap-10 py-10 px-5"
+        >
+          <div id="companies" class="flex flex-col gap-10 items-center">
+            <h3 class="text-center text-complimentary uppercase text-2xl">
+              <span class="text-primary">Companies</span> I Have Worked With
+            </h3>
+            <div
+              id="company-logos"
+              class="flex gap-10 justify-center items-center flex-wrap"
+            >
+              <a href="https://www.easyequities.co.za/" target="_blank"
+                ><img
+                  class="duration-300 hover:scale-125"
+                  src="https://www.easyequities.co.za/hubfs/easyequities-logo.png"
+                  alt="The EasyEquities Logo"
+                  width="250"
+              /></a>
+              <a href="https://www.tab4racing.com/tabs/featured" target="_blank"
+                ><img
+                  class="duration-300 hover:scale-125"
+                  src="https://19643387.fs1.hubspotusercontent-na1.net/hubfs/19643387/4Racing%20Logo-1.svg"
+                  alt="The 4Racing Logo"
+                  width="100"
+              /></a>
+              <a href="https://www.tetrad.co.za/" target="_blank"
+                ><img
+                  class="duration-300 hover:scale-125"
+                  src="https://www.tetrad.co.za/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.50d146e5.webp&w=2048&q=75"
+                  alt="The Tetrad Group Logo"
+                  width="250"
+              /></a>
+            </div>
+          </div>
+          <div id="lang-and-tech" class="flex flex-col gap-10">
+            <h3 class="text-center text-complimentary uppercase text-2xl">
+              Preferred <span class="text-primary">Languages</span> and
+              <span class="text-primary">Tech</span>
+            </h3>
+            <div id="tech-logos" class="flex justify-center gap-10 flex-wrap">
+              <img
+                class="hover:-translate-y-1 duration-300"
+                id="html-logo"
+                src="img/html-logo/HTML5_Badge_32.png"
+                alt="The HTML5 Logo"
+                srcset="
+                  img/html-logo/HTML5_Badge_32.png   32w,
+                  img/html-logo/HTML5_Badge_64.png   64w,
+                  img/html-logo/HTML5_Badge_128.png 128w,
+                  img/html-logo/HTML5_Badge_256.png 256w,
+                  img/html-logo/HTML5_Badge_512.png 512w
+                "
+                width="100"
+                loading="lazy"
+              />
+              <img
+                class="hover:-translate-y-1 duration-300"
+                id="css-logo"
+                src="img/css-logo/32px-CSS3_logo.svg.png"
+                alt="The CSS Logo"
+                srcset="
+                  img/css-logo/32px-CSS3_logo.svg.png   32w,
+                  img/css-logo/64px-CSS3_logo.svg.png   64w,
+                  img/css-logo/128px-CSS3_logo.svg.png 128w,
+                  img/css-logo/256px-CSS3_logo.svg.png 256w,
+                  img/css-logo/512px-CSS3_logo.svg.png 512w
+                "
+                width="100"
+                loading="lazy"
+              />
+              <img
+                class="hover:-translate-y-1 duration-300"
+                id="js-logo"
+                src="img/js-logo/64px-JavaScript-logo.png"
+                alt="The JS Logo"
+                srcset="
+                  img/js-logo/64px-JavaScript-logo.png     64w,
+                  img/js-logo/128px-JavaScript-logo.png   128w,
+                  img/js-logo/256px-JavaScript-logo.png   256w,
+                  img/js-logo/512px-JavaScript-logo.png   512w,
+                  img/js-logo/1024px-JavaScript-logo.png 1024w
+                "
+                width="100"
+                loading="lazy"
+              />
+              <img
+                class="hover:-translate-y-1 duration-300"
+                id="tailwindcss-logo"
+                src="img/tech-logos/tailwindcss-logo.svg"
+                alt="The TailWindCSS Logo"
+                width="100"
+              />
+              <img
+                class="hover:-translate-y-1 duration-300"
+                src="img/tech-logos/jquery-logo.svg"
+                alt="The JQuery Logo"
+                width="100"
+                loading="lazy"
+              />
+              <img
+                class="hover:-translate-y-1 duration-300"
+                id="hubspot-logo"
+                src="img/tech-logos/hubspot-logo.svg"
+                alt="The HubSpot CRM Logo"
+                width="100"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div id="certs" class="flex flex-col gap-10 items-center">
+            <h3 class="text-center text-complimentary uppercase text-2xl">
+              <span class="text-primary">Certifications</span> and
+              <span class="text-primary">Courses</span>
+            </h3>
+            <div
+              id="cert-badges"
+              class="flex gap-10 flex-wrap justify-center items-center"
+            >
+              <div
+                class="academy-badge hover:shadow-2xl rounded-full p-1 hover:bg-tertiary duration-500"
+              >
+                <a
+                  href="https://app.hubspot.com/academy/achievements/k6m75f8l/en/1/tristan-savage/hubspot-cms-for-developers"
+                  title="HubSpot CMS for Developers"
+                  target="_blank"
+                >
+                  <img
+                    src="img/hs-certs/cms-for-developers.png"
+                    alt="The badge for the HubSpot CMS for Developers course"
+                  />
+                </a>
+              </div>
+              <div
+                class="academy-badge hover:shadow-2xl rounded-full p-1 hover:bg-tertiary duration-500"
+              >
+                <a
+                  href="https://app.hubspot.com/academy/achievements/bs3y8qg0/en/1/tristan-savage/hubspot-cms-for-developers-ii-best-practices"
+                  title="HubSpot CMS for Developers II: Best Practices"
+                >
+                  <img
+                    src="img/hs-certs/cms-for-developers-2.png"
+                    alt="The Badge for the HubSpot CMS for Developers II: Best Practices course"
+                  />
+                </a>
+              </div>
+              <div
+                class="academy-badge hover:shadow-2xl rounded-full p-1 hover:bg-tertiary duration-500"
+              >
+                <a
+                  href="https://app.hubspot.com/academy/achievements/f7g2r576/en/1/tristan-savage/integrating-with-hubspot-i-foundations"
+                  title="Integrating With HubSpot I: Foundations"
+                >
+                  <img
+                    src="img/hs-certs/integration-with-hubspot-foundations.png"
+                    alt="the badge for the Integrating With HubSpot I: Foundations course"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="pricing" class="flex flex-col gap-10">
+        <h2 class="text-6xl text-secondary dark:text-complimentary">
+          Hourly and Project Based <span class="text-primary">Pricing</span>
+        </h2>
+        <div
+          id="rates"
+          class="bg-secondary rounded-xl w-full flex flex-col md:flex-row lg:flex-row items-center gap-10 py-10 px-5 justify-evenly"
+        >
+          <div
+            id="hourly-rates"
+            class="price-card lg:w-1/3 w-full bg-tertiary rounded-xl p-5 text-complimentary"
+          >
+            <h3 class="text-primary uppercase text-2xl">Hourly</h3>
+            <p>Discounts are capped at 15% for all purchases above 20hr</p>
+            <br />
+            <ul>
+              <li><span class="text-primary">USD</span> $50/hr</li>
+              <li><span class="text-primary">USD</span> $450/10hr</li>
+              <li><span class="text-primary">USD</span> $850/20hr</li>
+            </ul>
+          </div>
+          <div
+            id="project-rates"
+            class="price-card bg-tertiary dark:bg-tertiary rounded-xl p-5 text-complimentary lg:w-1/3 w-full"
+          >
+            <h3 class="text-primary uppercase text-2xl">Projects</h3>
+            <p>
+              Pricing is based on the projects complexity, and may be more or
+              less than the following:
+            </p>
+            <br />
+            <ul c>
+              <li>
+                <span class="text-primary">Custom Module:</span> USD $50-$300
+              </li>
+              <li>
+                <span class="text-primary">Page Template:</span> USD $500-$1500
+              </li>
+              <li><span class="text-primary">Theme:</span> USD $5000-$9500</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="flex flex-col gap-10">
+        <h2 class="text-6xl text-secondary dark:text-complimentary">
+          <span class="text-primary">Contact</span> Me
+        </h2>
+        <div
+          class="bg-secondary rounded-xl w-full flex flex-col md:flex-row lg:flex-row items-center gap-10 py-10 px-5 justify-evenly"
+        >
+          <form
+            method="POST"
+            action="https://api.sheetmonkey.io/form/dEja932FaxaMnjapdkFeGt"
+            class="bg-tertiary flex flex-col p-10 rounded-xl gap-5"
+            id="contact-form"
+            onsubmit="onFormSubmit()"
+          >
+            <input
+              name="name"
+              type="text"
+              id="name"
+              placeholder="Name"
+              required
+              class="rounded bg-secondary text-complimentary"
+            />
+            <input
+              name="email"
+              type="email"
+              id="email"
+              placeholder="Email"
+              required
+              class="rounded bg-secondary text-complimentary"
+            />
+            <input
+              name="cell-number"
+              type="tel"
+              id="cell-number"
+              placeholder="Phone Number"
+              class="rounded bg-secondary text-complimentary"
+            />
+            <select
+              name="select-options"
+              id="select-options"
+              class="rounded bg-secondary text-complimentary"
+            >
+              <option value="hourly-rates">Hourly Rates</option>
+              <option value="project-rates">Project Prices</option>
+              <option value="other">Other</option>
+            </select>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+              class="rounded resize-none bg-secondary text-complimentary"
+              form="contact-form"
+            ></textarea>
+            <input
+              type="submit"
+              name="submit"
+              class="rounded bg-primary text-tertiary hover:text-primary hover:bg-secondary duration-300"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

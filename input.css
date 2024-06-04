@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#header-title {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+
+#header-title:hover > path {
+  stroke: #fff;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+
+#hourly-rates,
+#project-rates {
+  background-image: linear-gradient(to right, #222831 50%, #00adb5 100%);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 300ms;
+}
+
+#hourly-rates:hover,
+#project-rates:hover {
+  background-position: right;
+}
